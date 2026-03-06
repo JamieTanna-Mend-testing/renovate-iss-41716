@@ -3,5 +3,11 @@
 	"extends": [
 		"config:best-practices"
 	],
-	"minimumReleaseAge": "10 days"
+	"minimumReleaseAge": "10 days",
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": [
+			"at any time"
+		]
+	}
 }
